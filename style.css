@@ -15,13 +15,13 @@ body{
 }
 
 .top-page{
-    background-image: url(/img/haikei1.png);
+    background-image: url(./img/haikei1.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .news-page{
-    background-image: url(/img/haikei2-01.png);
+    background-image: url(./img/haikei2-01.png);
     background-size: cover;
 }
 
