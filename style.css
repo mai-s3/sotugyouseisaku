@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Cormorant Garamond', 'Times New Roman', serif;
+    color: #fff;
+    text-shadow: 
+        0 0 8px rgba(255, 255, 255, 0.8),
+        0 0 15px rgba(180, 210, 255, 0.6);
+    overflow-x: hidden;
+    background-size: contain;
+}
+
+.top-page{
+    background-image: url(/img/haikei1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.news-page{
+    background-image: url(/img/haikei2-01.png);
+    background-size: cover;
+}
+
+
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background: #22C1C3;
+    background: linear-gradient(0deg,rgba(34, 193, 195, 0) 0%, rgba(255, 255, 255, 0.97) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -30px;
+}
+
+.nav-left,
+.nav-right{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -20px;
+   
+}
+.nav-right{
+     margin-right:30px;
+}
+.nav-left{
+    margin-left: 30px;
+}
+
+.header nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 1.5;
+    width: 150px;
+    text-align: center;
+    margin-right: 6vw;
+}
+
+.header nav a:hover{
+    opacity: 0.6;
+}
+
+.logo{
+    display: block;
+    width: 30%;
+    text-align: center;
+}
+
+.logo img{
+    width: -300%;
+    max-width: 100%;
+    height: auto;
+}
+
+.hero{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 600px;
+    padding: 40px 5%;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+.hero > img{
+    width: 50%;
+    max-width: 550px;
+    height: auto;
+    object-fit: contain;
+    position: relative;
+    top: 60px;
+    flex-shrink: 0;
+}
+
+.hero-content h1{
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 1.15;
+    letter-spacing: 0.05em;
+    margin-bottom: 24px;
+    margin-left: -200px;
+    margin-top: 100px;
+}
+
+
+
+.news-title{
+    text-align: center;
+    margin-top: 200px;
+}
+.news-title img{
+    width: 500px;
+    height: auto;
+}
+.news-list{
+    display: grid;
+    grid-template-columns: repeat(3,280px);
+    padding: 50px;
+    justify-content: space-around;
+    gap: 50px;
+}
+.news-card{
+    width: 280px;
+    height: 400px;
+    background-color: #1d3766;
+    border-radius: 25px;
+    padding: 8px;
+}
+.news-card img,
+.news-image{
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 20px;
+    background-color: #bbb;
+}
+.date{
+    margin-top: 10px;
+    font-size: 14px;
+}
+.news-text{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 22px;
+}
+.page-top{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 100;
+}
+.page-top img{
+    width: 200px;
+    height: auto;
+}
+
+
+.concept-page{
+    background-color: #00628b;
+    text-align: center;
+    padding-top: 250px;
+}
+.concept-star img{
+    width: 200px;
+    height: auto;
+    margin-bottom: 30px;
+}
+.concept h1{
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 60px;
+}
+.concept-text{
+    font-size: 18px;
+    line-height: 3;
+}
+.footer{
+    background-color: #1d3766;
+}
+
+
+
+.shop-page{
+    background-color: #102a50;
+    padding: 250px 30px 60px;
+}
+.shop-container{
+    background-color: #e3f5ff;
+    border-radius: 20px;
+    padding: 60px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 80px 40px;
+    position: relative;
+    height: 600px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: none;
+}
+.product{
+    text-align: center;
+}
+.product img{
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    max-width: 250px;
+}
+.product h2{
+    color: #222;
+    font-size: 14px;
+    margin-top: 20px;
+    font-weight: normal;
+}
+.product p{
+    color: #222;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.star-top{
+    position: absolute;
+    top: -50px;
+    right: -30px;
+    width: 200px;
+    height: auto;
+}
+.star-bottom{
+    position: absolute;
+    bottom: -50px;
+    left: -50px;
+    width: 200px;
+    height: auto;
+}
